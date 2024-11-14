@@ -1,6 +1,8 @@
 # 📚 Java Book Library with CRUD Operations
 This is a terminal-based Book Library application in Java, allowing users to manage a collection of books through a simple command-line interface. The application is connected to a MySQL database and supports basic CRUD (Create, Read, Update, Delete) operations.
 
+---
+
 ## 📖 Features
 Interactive Command-Line Menu: Provides an easy-to-use numbered menu for navigation.
 CRUD Operations:
@@ -8,6 +10,9 @@ Add: Insert new books into the library.
 Read: View the list of books in the library.
 Update: Modify details of an existing book.
 Delete: Remove a book from the library.
+
+---
+
 ## 🚀 Getting Started
 ### 1. Prerequisites
 - Java JDK: Ensure you have Java installed on your machine.
@@ -50,6 +55,9 @@ java LibrarySystem
 Once launched, the application will display a menu in the terminal.
 Input the number corresponding to the operation you want to perform (e.g., 1 to add a book).
 Follow the prompts to manage your book collection.
+
+---
+
 ## 🛠️ Project Structure
 - Main.java: 
   - Main application class with the command-line menu for CRUD operations.
@@ -59,6 +67,9 @@ Follow the prompts to manage your book collection.
     - Data Access Object for CRUD operations.
 - Book.java:
     - Constructor class for book.
+ 
+---
+
 ## 📝 Example Usage
 Upon running the application, you'll see a menu like this:
 

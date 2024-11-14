@@ -17,12 +17,13 @@ Delete: Remove a book from the library.
 - Create the Database:
 
 Use PHPMyAdmin or your preferred MySQL interface to create a new database.
-Name your database (e.g., book_library) and set up a table (e.g., books) with the following columns:
+Name your database (e.g., book_library) and set up a table (books) with the following columns:
 ```
 id (INT, Primary Key, Auto Increment)
 title (VARCHAR)
 author (VARCHAR)
-publication_year (INT)
+year_published (INT)
+genre (VARCHAR)
 ```
 - Configure Database Connection:
 
